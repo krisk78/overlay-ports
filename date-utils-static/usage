@@ -1,0 +1,4 @@
+date-utils-static provides CMake targets:
+
+find_package(date-utils-static CONFIG REQUIRED)
+target_link_libraries(main PRIVATE date-utils-static::date-utils-static)

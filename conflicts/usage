@@ -1,0 +1,4 @@
+conflicts provides CMake targets:
+
+find_package(conflicts CONFIG REQUIRED)
+target_link_libraries(main INTERFACE conflicts::conflicts)

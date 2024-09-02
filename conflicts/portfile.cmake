@@ -6,7 +6,7 @@ message(STATUS "Version: v${VERSION}")
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO "krisk78/requirements"
+    REPO "krisk78/conflicts"
     HEAD_REF "master"
     REF "v${VERSION}"
     SHA512 "9ec377b18bcc022ec431586e9f753ec85258defbbadc3e6d7b8531b1f1e7d1eb1d238f25dd2d49c79e3ea6002433fe35e8893c3e2b1ceb61c2ddec72b960c843"
@@ -17,7 +17,7 @@ message(STATUS "Source path: ${SOURCE_PATH}")
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"
     OPTIONS
-        -Drequirements_BUILD_TESTS=OFF
+        -Dconflicts_BUILD_TESTS=OFF
 )
 
 vcpkg_cmake_install()

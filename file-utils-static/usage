@@ -1,0 +1,4 @@
+file-utils-static provides CMake targets:
+
+find_package(file-utils-static CONFIG REQUIRED)
+target_link_libraries(main PRIVATE file-utils-static::file-utils-static)

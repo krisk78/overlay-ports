@@ -1,15 +1,15 @@
-#header-only library
+#static library
 
-#vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
+vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 
 message(STATUS "Version: v${VERSION}")
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO "krisk78/conflicts"
+    REPO "krisk78/usage-static"
     HEAD_REF "master"
     REF "v${VERSION}"
-    SHA512 "01c2f0ce7789429f757065c39ecbdf43afd469bd636688e7f7f42f15b70bac11b66dae817c5bef9f5cd5848ebf49609a6808530d82d300c99146a371ca50e40c"
+    SHA512 "611723d13f8a812cd78da0afd1387c8a5a9440636a851fcf4809399c09ccef1c98712a602f15292a6edc7b8885110f599cc5587e428692a57c1019244619a9d9"
 )
 
 message(STATUS "Source path: ${SOURCE_PATH}")
@@ -17,7 +17,7 @@ message(STATUS "Source path: ${SOURCE_PATH}")
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"
     OPTIONS
-        -Dconflicts_BUILD_TESTS=OFF
+        -Dusage-static_BUILD_TESTS=OFF
 )
 
 vcpkg_cmake_install()

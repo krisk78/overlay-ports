@@ -1,0 +1,4 @@
+str-utils-static provides CMake targets:
+
+find_package(str-utils-static CONFIG REQUIRED)
+target_link_libraries(main PRIVATE str-utils-static::str-utils-static)

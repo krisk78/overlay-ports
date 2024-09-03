@@ -6,10 +6,10 @@ message(STATUS "Version: v${VERSION}")
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO "krisk78/file-utils-static"
+    REPO "krisk78/consoleapp-static"
     HEAD_REF "master"
     REF "v${VERSION}"
-    SHA512 "a79e27a2b7b6c14e8f4c86a4e80b29022e3289e2e2759f032b139a8a91284acd0c1eb4a0417e9787a7e8a3a047aa8ec3310af70363ee4daa7582080cece64400"
+    SHA512 "48a1940383da4a2c5c762e11fc942073d8319dec0a4072ebef4ff53f2282b998b84c637c9c0d5c2f90147e561780376571cb8431b8c19be42d654650689696e8"
 )
 
 message(STATUS "Source path: ${SOURCE_PATH}")
@@ -17,7 +17,7 @@ message(STATUS "Source path: ${SOURCE_PATH}")
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"
     OPTIONS
-        -Dfile-utils-static_BUILD_TESTS=OFF
+        -Dconsoleapp-static_BUILD_TESTS=OFF
 )
 
 vcpkg_cmake_install()

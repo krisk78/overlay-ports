@@ -1,0 +1,4 @@
+consoleapp-static provides CMake targets:
+
+find_package(consoleapp-static CONFIG REQUIRED)
+target_link_libraries(main PRIVATE consoleapp-static::consoleapp-static)

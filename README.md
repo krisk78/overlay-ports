@@ -6,3 +6,5 @@ VCPKG overlay ports used for import libraries:
 * requirements
 * conflicts
 * consoleapp-static
+
+Update installation path in the vcpkg-configuration.json file that include any of these libraries

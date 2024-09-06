@@ -5,6 +5,7 @@ VCPKG overlay ports used for import libraries:
 * file-utils-static
 * requirements
 * conflicts
+* usage-static
 * consoleapp-static
 
 Update installation path in the vcpkg-configuration.json file of your project, ie:

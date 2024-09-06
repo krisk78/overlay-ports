@@ -1,2 +1,2 @@
 # overlay-ports
-Overlay ports used for libraries
+VCPKG overlay ports used for import libraries

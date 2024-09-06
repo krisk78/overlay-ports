@@ -7,4 +7,5 @@ VCPKG overlay ports used for import libraries:
 * conflicts
 * consoleapp-static
 
-Update installation path in the vcpkg-configuration.json file that include any of these libraries
+Update installation path in the vcpkg-configuration.json file of your project, ie:
+"overlay-ports": [ "../overlay-ports" ]

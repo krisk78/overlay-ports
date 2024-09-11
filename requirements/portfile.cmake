@@ -8,7 +8,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO "krisk78/requirements"
     REF "v${VERSION}"
-    SHA512 "768db3cf7f5392aa67345fd579af84dcbef9f00216da5fbd1b9011f1ab4ee1a5f99e3c491951ea5df55707aed7d6c8fdd9ffead6328b5971311e2bfbe07b8d32"
+    SHA512 "f2cc5f3d64e3386ebbbaf6c8f86b4a7415d81521e598ef24ba75fbfe13f4127deff9229b3712da5d16ee92ec3026b5b69e234f9a918ded4efde794421e9c2c4a"
 )
 
 message(STATUS "Source path: ${SOURCE_PATH}")

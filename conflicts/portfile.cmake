@@ -7,9 +7,8 @@ message(STATUS "Version: v${VERSION}")
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO "krisk78/conflicts"
-    HEAD_REF "master"
     REF "v${VERSION}"
-    SHA512 "01c2f0ce7789429f757065c39ecbdf43afd469bd636688e7f7f42f15b70bac11b66dae817c5bef9f5cd5848ebf49609a6808530d82d300c99146a371ca50e40c"
+    SHA512 "6ebda56759ac848cc7907235e64963c9f5e967b97b582aa91541c964c82acb7037ff739c7c112d828e93f4b74acd1d469ca56c212c20712cb85c3f46475dba75"
 )
 
 message(STATUS "Source path: ${SOURCE_PATH}")

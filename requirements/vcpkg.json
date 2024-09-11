@@ -1,6 +1,6 @@
 {
   "name": "requirements",
-  "version": "1.0.0-beta",
+  "version": "1.1.0",
   "description": "A static library providing a framework to manage dependencies",
   "homepage": "https://github.com/krisk78/requirements",
   "license": "MIT",

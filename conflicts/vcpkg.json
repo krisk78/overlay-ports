@@ -1,6 +1,6 @@
 {
   "name": "conflicts",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A static library providing a framework to manage conflicts in dependencies",
   "homepage": "https://github.com/krisk78/conflicts",
   "license": "MIT",
